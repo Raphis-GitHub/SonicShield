@@ -24,15 +24,15 @@ def apply_bandpass(audio_data, lowcut=5000, highcut=15000, sample_rate=SAMPLE_RA
     For some reason the butter filter was making everything sound muffled,
     need to revisit this later.
     """
-    # This should work in theory:
-    # nyquist = 0.5 * sample_rate
-    # low = lowcut / nyquist
-    # high = highcut / nyquist
-    # b, a = signal.butter(4, [low, high], btype='band')
-    # filtered_data = signal.lfilter(b, a, audio_data)
-    # return filtered_data
+   # This should work in theory:
+    nyquist = 0.5 * sample_rate
+    low = lowcut / nyquist
+    high = highcut / nyquist
+    b, a = signal.butter(4, [low, high], btype='band')
+    filtered_data = signal.lfilter(b, a, audio_data)
+    return filtered_data
 
-    # Just returning the raw audio for now
+   # Just returning the raw audio for now
     return audio_data
 
 
@@ -76,10 +76,10 @@ def main():
             # Small pause between updates
             time.sleep(0.1)
 
-            # Could add a feature to save spectrograms here someday
-            # if keyboard.is_pressed('s'):
-            #    plt.savefig(f'spectrogram_{time.strftime("%Y%m%d_%H%M%S")}.png')
-            #    print("Saved!")
+          #  Could add a feature to save spectrograms here someday
+            if keyboard.is_pressed('s'):
+               plt.savefig(f'spectrogram_{time.strftime("%Y%m%d_%H%M%S")}.png')
+               print("Saved!")
     except KeyboardInterrupt:
         print("\nShutting down")
     except Exception as e:
