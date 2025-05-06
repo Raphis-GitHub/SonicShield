@@ -76,8 +76,7 @@ def main():
             # Small pause between updates
             time.sleep(0.1)
 
-          #  Could add a feature to save spectrograms here someday
-            
+          #  Could add a feature to save spectrograms here so
             if keyboard.is_pressed('s'):
                plt.savefig(f'spectrogram_{time.strftime("%Y%m%d_%H%M%S")}.png')
                print("Saved!")
