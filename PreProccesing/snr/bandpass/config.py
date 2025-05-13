@@ -29,5 +29,6 @@ SPECTROGRAM_NOVERLAP = 512
 SPECTROGRAM_CMAP = 'hot'
 SPECTROGRAM_MAX_FREQ = 22000  # Hz (maximum frequency to display)
 
+
 # Performance metrics
 SNR_WINDOW_SIZE = 1024  # Window size for SNR calculation
