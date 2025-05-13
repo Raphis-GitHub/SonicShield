@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a456bf12-d4ed-4dd9-aad2-fae5561ea190" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SonicSheild.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showSpect.py" afterDir="false" />
+    <list default="true" id="a456bf12-d4ed-4dd9-aad2-fae5561ea190" name="Changes" comment="Rename and update showSpect.py with functional improvements&#10;&#10;Moved showSpect.py to the Pre">
+      <change afterPath="$PROJECT_DIR$/PreProccesing/snr/bandpass/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PreProccesing/snr/bandpass/evaluation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PreProccesing/snr/bandpass/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PreProccesing/snr/bandpass/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PreProccesing/snr/bandpass/signal_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PreProccesing/snr/bandpass/visualization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreProccesing/showSpect.py" beforeDir="false" afterPath="$PROJECT_DIR$/PreProccesing/showSpect.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,18 +28,35 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Raphis-GitHub&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Raphis-GitHub/SonicShield&quot;,
+    &quot;accountId&quot;: &quot;6e99f8cc-aef7-4c8f-a9e7-144cb1b17e7d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2vRzRPdwjgRmyPxynzF4GFdwoH0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main (1).executor": "Run",
+    "Python.showSpect (1).executor": "Run",
     "Python.showSpect.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -48,11 +65,40 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.showSpect">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\raphs\PycharmProjects\SonicSheild\PreProccesing\snr\bandpass" />
+      <recent name="C:\Users\raphs\PycharmProjects\SonicSheild\PreProccesing" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.showSpect (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SonicSheild" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PreProccesing/snr/bandpass" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PreProccesing/snr/bandpass/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="SonicSheild" />
       <option name="ENV_FILES" value="" />
@@ -76,6 +122,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="showSpect (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SonicSheild" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PreProccesing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PreProccesing/showSpect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="showSpect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SonicSheild" />
       <option name="ENV_FILES" value="" />
@@ -90,7 +159,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/showSpect.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\raphs\PycharmProjects\SonicSheild\PreProccesing\showSpect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,6 +170,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.showSpect (1)" />
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.showSpect" />
       </list>
     </recent_temporary>
@@ -122,13 +193,57 @@
       <option name="presentableId" value="Default" />
       <updated>1744122665412</updated>
       <workItem from="1744122666469" duration="8225000" />
+      <workItem from="1746546511496" duration="819000" />
+      <workItem from="1746547347675" duration="3446000" />
+      <workItem from="1746707557464" duration="9000" />
+      <workItem from="1747152328280" duration="450000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1746546607228</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746546607228</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Rename and update showSpect.py with functional improvements&#10;&#10;Moved showSpect.py to the PreProcessing directory for better organization. Re-enabled the butter filter logic and added functionality to save spectrograms using the 's' key.">
+      <option name="closed" value="true" />
+      <created>1746547771658</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746547771658</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Rename and update showSpect.py with functional improvements&#10;&#10;Moved showSpect.py to the Pre">
+      <option name="closed" value="true" />
+      <created>1746547789547</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746547789547</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Rename and update showSpect.py with functional improvements&#10;&#10;Moved showSpect.py to the Pre">
+      <option name="closed" value="true" />
+      <created>1746547803748</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746547803748</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="Rename and update showSpect.py with functional improvements&#10;&#10;Moved showSpect.py to the Pre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename and update showSpect.py with functional improvements&#10;&#10;Moved showSpect.py to the Pre" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SonicSheild$showSpect.coverage" NAME="showSpect Coverage Results" MODIFIED="1744128680061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SonicSheild$showSpect__1_.coverage" NAME="showSpect (1) Coverage Results" MODIFIED="1747152715401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreProccesing" />
+    <SUITE FILE_PATH="coverage/SonicSheild$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1746550141161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreProccesing/snr/bandpass" />
   </component>
 </project>
